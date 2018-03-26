@@ -16,3 +16,8 @@ h1 {
     text-align: center;
     
 }
+
+.card-border-danger-mb-3 {
+    display:flex;
+    align-items: flex-end;
+}
