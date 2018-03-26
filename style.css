@@ -3,7 +3,16 @@ h1 {
     font-size: 70px;
 }
 
-.button {
-    text-align: center;
+.progress-bar {
     background-color:rgb(250, 100, 0);
+   
+}
+
+.jumbotron {
+    margin-top:100px;
+}
+
+#spaces {
+    text-align: center;
+    
 }
