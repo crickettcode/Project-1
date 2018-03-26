@@ -1,3 +1,6 @@
+
+
+
 h1 {
     text-align: center;
     font-size: 70px;
@@ -17,7 +20,9 @@ h1 {
     
 }
 
-.card-border-danger-mb-3 {
+.alphabet-box {
     display:flex;
-    align-items: flex-end;
+    justify-content:space-around;
 }
+
+
