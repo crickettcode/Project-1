@@ -10,6 +10,7 @@ $(".btn-letter").click(function () {
         alert("That letter is in the word!")
     } else {
         alert("That letter is not in the word stupid!")
+        $("#lostBox").append("<p>" + event.target.innerText + "</p>")
     }
 });
 
