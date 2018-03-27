@@ -3,7 +3,6 @@ $(document).ready(function () {
 });
 
 $(".btn-letter").click(function () {
-
     $(this).hide()
     console.log($(this))
     console.log(event.target.innerText)
@@ -12,13 +11,13 @@ $(".btn-letter").click(function () {
     } else {
         console.log("That letter is not in the word stupid!")
     }
+});
+
+$("btn-play").click(function () {
+    $("btn-play").reload(forcedReload)
+
+});
 
 
-    // $(".btn-play").onclick(function () {
-    // $(this).refreshpage()
 
-}
-
-
-);
 
