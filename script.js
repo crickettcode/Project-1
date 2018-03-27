@@ -14,10 +14,8 @@ $(".btn-letter").click(function () {
 });
 
 $("btn-play").click(function () {
-    $("btn-play").reload(forcedReload)
-
+    window.reload()
 });
-
 
 
 
