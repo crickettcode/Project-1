@@ -12,6 +12,7 @@ $(".btn-letter").click(function () {
     for (count = 0; count < arryLength; i++) {
         if (word[count] === event.target.innerText) {
             alert("That letter is in the word!")
+            $("#rightLetter").append('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
         }
         else {
             alert("That letter is not in the word stupid!")
