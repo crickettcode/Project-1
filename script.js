@@ -1,3 +1,3 @@
 $(document).ready(function () {
-    alert("Hello from JavaScript file");
+    alert("Am I Working Now");
 });
