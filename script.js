@@ -3,66 +3,52 @@ $(document).ready(function () {
 });
 let correct = 0
 let guess = 0
-//let correct = 4
 $(".btn-letter").click(function () {
     $(this).hide()
     console.log($(this))
     console.log(event.target.innerText)
 
     let word = ['N', 'E', 'R', 'D',]//[]
-    var arryLength = word.length
+    // var arryLength = word.length
     var foundIt = false;
-    //let correct = [4]
+
     //for (count = 0; count < arryLength; count++) {
     if ("N" === event.target.innerText) {
-        //$("#rightLetter").append('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
+        foundIt = true;
         $("#N").show('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
     }
     else if ("E" === event.target.innerText) {
+        foundIt = true;
         $("#E").show('<button type="button" class="btn-letter btn btn-outline-info">' + event.target.innerText + '</button>')
     }
     else if ("R" === event.target.innerText) {
+        foundIt = true;
         $("#R").show('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
     }
     else if ("D" === event.target.innerText) {
+        foundIt = true;
         $("#D").show('<button type="button" class="btn-letter btn btn-outline-danger">' + event.target.innerText + '</button>')
     }
 
-    var foundIt = true;
     if (foundIt) {
         alert("That letter is in the word!")
         correct++
-        if (correct === 4)
-            alert("Winner")
+    } else {
+        alert("That letter is not in the word stupid!")
+        $("#lostBox").append('<button type="button" class="btn-letter btn btn-outline-warning">' + event.target.innerText + '</button>')
+        guess++
+    }
 
-
-        else {
-            alert("That letter is not in the word stupid!")
-            $("#lostBox").append('<button type="button" class="btn-letter btn btn-outline-warning">' + event.target.innerText + '</button>')
-            guess++
-        }
-
-
-        //var foundIt = true;
-        // if (foundIt) {
-        //alert("That letter is in the word!")
-        // correct++
-        //if (correct === 4)
-        // alert("Winner")
-
-        //(guess === ['N', 'E', 'R', 'D'] &&
-        //guess < 6)
-        //alert("Winner!")
-
-
-
-
-
-        if (guess > 5) {
-            alert("Game Over")
-        }
+    if (correct === 4) {
+        alert("Winner")
 
     }
+
+    if (guess > 5) {
+        alert("Game Over")
+    }
+
+
 });
 
 
@@ -76,3 +62,13 @@ $(".btn-letter").click(function () {
    // (event.target.innerText === 'N' || event.target.innerText == 'E' || event.target.innerText == 'R' || event.target.innerText == 'D') {
 
  //var foundIt = true;
+//var foundIt = true;
+        // if (foundIt) {
+        //alert("That letter is in the word!")
+        // correct++
+        //if (correct === 4)
+        // alert("Winner")
+
+        //(guess === ['N', 'E', 'R', 'D'] &&
+        //guess < 6)
+        //alert("Winner!")
