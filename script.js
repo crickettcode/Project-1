@@ -15,12 +15,11 @@ $(".btn-letter").click(function () {
     //let correct = [4]
     for (count = 0; count < arryLength; count++) {
         if (word[count] === event.target.innerText) {
-            //alert("That letter is in the word!")
-            $("#rightLetter").append('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
-            //$("#N").css("display", "show")
-            //$("#E").css("display","show")
-            //$("#R").css("display","show")
-            //$("#D").css("display","show")
+            // $("#rightLetter").append('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
+            $("#N").show('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
+            $("#E").show('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
+            $("#R").show('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
+            $("#D").show('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
             var foundIt = true;
 
         }
