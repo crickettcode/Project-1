@@ -22,18 +22,24 @@ $(".btn-letter").click(function () {
         }
     }
 
+    let guess = 0;
     if (foundIt) {
         alert("That letter is in the word!")
 
     }
-    let guess = 0; 
 
     else {
         alert("That letter is not in the word stupid!")
         $("#lostBox").append('<button type="button" class="btn-letter btn btn-outline-warning">' + event.target.innerText + '</button>')
-        guess =
+        guess++
+
+        if (guess > 6) {
+            alert("Game Over")
+        }
+
     }
 });
+
 
 $("btn-play").click(function () {
     window.reload()
