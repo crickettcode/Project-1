@@ -1,7 +1,7 @@
 # Project-1
 Hangman - First project of WDI-15. Interactive game. 
 
-
+![hangman!!!!](https://ruwix.com/pics/memes/hangman-meme.jpg)
 
 ##Hangman Game
 
@@ -13,19 +13,20 @@ Display a scoreboard of how games won and lost.
 Choose a theme for the game, such as "Famous Movies" or "Web Development Terms"
 
 
-![wire!!!!](https://i.imgur.com/95MuZ8X.jpg)
+![wire!!!!](https://i.imgur.com/95MuZ8X.jpg)--- this is my wire frame
+![pseudo](https://i.imgur.com/gnqZ5EU.jpg)- this is where jackson helped me pseudo-code
 
 
 ###links
-
-http://angry-euclid-879adc.bitballoon.com/ -- this is my Project 
+[This is my Project](http://angry-euclid-879adc.bitballoon.com/)
+ 
 
 https://bootswatch.com/sketchy/ -- this was the specific CSS that I used 
 
 https://trello.com/b/afQR3YdR/project-1-hangman -- this is how I organized my user story
 
 
-![hangman!!!!](https://ruwix.com/pics/memes/hangman-meme.jpg)
+
 
 
 
