@@ -7,7 +7,7 @@ $(".btn-letter").click(function () {
     console.log($(this))
     console.log(event.target.innerText)
 
-    let word = ['N', 'E', 'R', 'D']
+    let word = ['N', 'E', 'R', 'D',]//[]
     var arryLength = word.length
     var foundIt = false;
     for (count = 0; count < arryLength; count++) {
@@ -24,12 +24,14 @@ $(".btn-letter").click(function () {
 
     if (foundIt) {
         alert("That letter is in the word!")
+
     }
+    let guess = 0; 
 
     else {
         alert("That letter is not in the word stupid!")
         $("#lostBox").append('<button type="button" class="btn-letter btn btn-outline-warning">' + event.target.innerText + '</button>')
-
+        guess =
     }
 });
 
