@@ -25,6 +25,12 @@ h1 {
     justify-content:space-around;
 }
 
+#rightLetter {
+    display:flex;
+    align-content: space-between
+    
+}
+
 #N {
     display:none;
 }
