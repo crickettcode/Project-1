@@ -1,7 +1,7 @@
 $(document).ready(function () {
     alert("Am I Working Now");
 });
-
+let guess = 0
 $(".btn-letter").click(function () {
     $(this).hide()
     console.log($(this))
@@ -22,7 +22,7 @@ $(".btn-letter").click(function () {
         }
     }
 
-    let guess = 0;
+    //let guess = 0;
     if (foundIt) {
         alert("That letter is in the word!")
 
@@ -41,11 +41,11 @@ $(".btn-letter").click(function () {
 });
 
 
-$("btn-play").click(function () {
-    window.reload()
+//$("btn-play").click(function () {
+    //window.reload()
 
-    obj['lostFound'].push(arrayLetters);
-});
+   // obj['lostFound'].push(arrayLetters);
+//});
 
 
    // (event.target.innerText === 'N' || event.target.innerText == 'E' || event.target.innerText == 'R' || event.target.innerText == 'D') {
