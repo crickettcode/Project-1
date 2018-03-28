@@ -13,7 +13,7 @@ Display a scoreboard of how games won and lost.
 Choose a theme for the game, such as "Famous Movies" or "Web Development Terms"
 
 
-![wire!!!!](https://imgur.com/a/XSFyG)
+![wire!!!!](https://imgur.com/95MuZ8X)
 
 
 ###links
