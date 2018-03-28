@@ -17,6 +17,10 @@ $(".btn-letter").click(function () {
         if (word[count] === event.target.innerText) {
             //alert("That letter is in the word!")
             $("#rightLetter").append('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
+            //$("#N").css("display", "show")
+            //$("#E").css("display","show")
+            //$("#R").css("display","show")
+            //$("#D").css("display","show")
             var foundIt = true;
 
         }
