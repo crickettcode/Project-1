@@ -1,7 +1,9 @@
 $(document).ready(function () {
     alert("Am I Working Now");
 });
+let correct = 0
 let guess = 0
+//let correct = 4
 $(".btn-letter").click(function () {
     $(this).hide()
     console.log($(this))
@@ -10,11 +12,13 @@ $(".btn-letter").click(function () {
     let word = ['N', 'E', 'R', 'D',]//[]
     var arryLength = word.length
     var foundIt = false;
+    //let correct = [4]
     for (count = 0; count < arryLength; count++) {
         if (word[count] === event.target.innerText) {
             //alert("That letter is in the word!")
             $("#rightLetter").append('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
             var foundIt = true;
+
         }
         else {
             // alert("That letter is not in the word stupid!")
@@ -25,6 +29,13 @@ $(".btn-letter").click(function () {
     //let guess = 0;
     if (foundIt) {
         alert("That letter is in the word!")
+        correct++
+        if (correct === 4)
+            alert("Winner")
+
+        //(guess === ['N', 'E', 'R', 'D'] &&
+        //guess < 6)
+        //alert("Winner!")
 
     }
 
