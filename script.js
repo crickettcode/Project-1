@@ -28,26 +28,33 @@ $(".btn-letter").click(function () {
         $("#D").show('<button type="button" class="btn-letter btn btn-outline-danger">' + event.target.innerText + '</button>')
     }
 
+    var foundIt = true;
+    if (foundIt) {
+        alert("That letter is in the word!")
+        correct++
+        if (correct === 4)
+            alert("Winner")
 
-    else {
-        alert("That letter is not in the word stupid!")
-        $("#lostBox").append('<button type="button" class="btn-letter btn btn-outline-warning">' + event.target.innerText + '</button>')
-        guess++
-    }
 
-    {
-        var foundIt = true;
-        if (foundIt) {
-            alert("That letter is in the word!")
-            correct++
-            if (correct === 4)
-                alert("Winner")
-
-            //(guess === ['N', 'E', 'R', 'D'] &&
-            //guess < 6)
-            //alert("Winner!")
-
+        else {
+            alert("That letter is not in the word stupid!")
+            $("#lostBox").append('<button type="button" class="btn-letter btn btn-outline-warning">' + event.target.innerText + '</button>')
+            guess++
         }
+
+
+        //var foundIt = true;
+        // if (foundIt) {
+        //alert("That letter is in the word!")
+        // correct++
+        //if (correct === 4)
+        // alert("Winner")
+
+        //(guess === ['N', 'E', 'R', 'D'] &&
+        //guess < 6)
+        //alert("Winner!")
+
+
 
 
 
