@@ -28,6 +28,7 @@ $(".btn-letter").click(function () {
         $("#D").show('<button type="button" class="btn-letter btn btn-outline-danger">' + event.target.innerText + '</button>')
     }
 
+
     else {
         alert("That letter is not in the word stupid!")
         $("#lostBox").append('<button type="button" class="btn-letter btn btn-outline-warning">' + event.target.innerText + '</button>')
@@ -35,7 +36,7 @@ $(".btn-letter").click(function () {
     }
 
     {
-        //let guess = 0;
+        var foundIt = true;
         if (foundIt) {
             alert("That letter is in the word!")
             correct++
