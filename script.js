@@ -44,7 +44,7 @@ $(".btn-letter").click(function () {
         $("#lostBox").append('<button type="button" class="btn-letter btn btn-outline-warning">' + event.target.innerText + '</button>')
         guess++
 
-        if (guess > 6) {
+        if (guess > 5) {
             alert("Game Over")
         }
 
