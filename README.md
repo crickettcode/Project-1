@@ -24,19 +24,27 @@ In order to begin the game, the user selects a letter from the alphabet box by c
 * I would also like to use an array of words in the next draft that is writtten in dynamic code
 
 
-### links
 
- These are the links, libraries, and frameworks that I used 
 
-* ## https://bootswatch.com/sketchy/ -- this was the specific CSS that I used 
+ ### These are the links, libraries, and frameworks that I used 
 
-* ## https://trello.com/b/afQR3YdR/project-1-hangman -- this is how I organized my user story
+* #### WDI-14
 
-* ## WDI-14
+* #### Jackson, Daniel ( instructors) Sanjay, William ( after hours tutoring ) 
 
-* ## Jackson, Daniel ( instructors) Sanjay, William ( after hours tutoring ) 
+* #### classmates of WDI-15
 
-* ## classmates of WDI-15
+##  Technologies
+
+* HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP
+
+## Links 
+
+* #### https://bootswatch.com/sketchy/ -- this was the specific CSS that I used 
+
+* #### https://trello.com/b/afQR3YdR/project-1-hangman -- this is how I organized my user story
+
+* #### https://code.jquery.com/ -- where I downloaded jquery cdn 
 
 
 
