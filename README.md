@@ -27,6 +27,10 @@ In order to begin the game, the user selects a letter from the alphabet box by c
 
 My favorite obstacle was probably the one that happened on the last day before my project was due. I had to re-write the code that I had previously used to display the letters in the array of the secret word. I had to scratch my for-loop and instead use the "hide/show" method with CSS and jQuery. I liked how Jackson broke down the if/else statement that was also used to solve the "problem" of displaying the secret word. I was proud of myself for sticking with the logic until I was able to arrive at a solution. It led to a better understanding of my code. 
 
+## Takeaway 
+
+Some of my takeaways from this first project were, learning how to break down large problems into bite-sized portions, sticking to the user story, and also practicing flexibility with solutions. I am proud of my work, and what I have learned through the difficulties of building a simple game logic, conditions, and framework.
+
 
  ### These are the links, libraries, and frameworks that I used 
 
