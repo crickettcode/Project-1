@@ -11,7 +11,7 @@ The game begins with the user viewing the game board, a box containing the lette
 In order to begin the game, the user selects a letter from the alphabet box by clicking on the letter. The letter will then either appear in the "Lost" letter box or appear over the eleven blank spaces at the top. The letter also will disappear from the "Alphabet" box. If the user is able to correctly guess the four letters of the word, then a message will display "Winner", and the game will end. Else, after 6 failed attempts, the game displays the alert of "Game Over" and the game will end.
 
 
-[This is my Project](http://angry-euclid-879adc.bitballoon.com/)
+[This is my Live Game](http://angry-euclid-879adc.bitballoon.com/)
  
 ![wire!!!!](https://i.imgur.com/95MuZ8X.jpg)--- this is my wire frame
 ![pseudo](https://i.imgur.com/gnqZ5EU.jpg)- this is where jackson helped me pseudo-code
@@ -36,7 +36,7 @@ In order to begin the game, the user selects a letter from the alphabet box by c
 
 ##  Technologies
 
-* HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP
+* HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, FLEXBOX
 
 ## Links 
 
