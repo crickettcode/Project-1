@@ -8,11 +8,9 @@ $(".btn-letter").click(function () {
     console.log($(this))
     console.log(event.target.innerText)
 
-    let word = ['N', 'E', 'R', 'D',]//[]
-    // var arryLength = word.length
+    let word = ['N', 'E', 'R', 'D',]
     var foundIt = false;
 
-    //for (count = 0; count < arryLength; count++) {
     if ("N" === event.target.innerText) {
         foundIt = true;
         $("#N").show('<button type="button" class="btn-letter btn btn-outline-success">' + event.target.innerText + '</button>')
@@ -41,34 +39,12 @@ $(".btn-letter").click(function () {
 
     if (correct === 4) {
         alert("Winner")
-
     }
 
     if (guess > 5) {
         alert("Game Over")
     }
 
-
 });
 
 
-//$("btn-play").click(function () {
-    //window.reload()
-
-   // obj['lostFound'].push(arrayLetters);
-//});
-
-
-   // (event.target.innerText === 'N' || event.target.innerText == 'E' || event.target.innerText == 'R' || event.target.innerText == 'D') {
-
- //var foundIt = true;
-//var foundIt = true;
-        // if (foundIt) {
-        //alert("That letter is in the word!")
-        // correct++
-        //if (correct === 4)
-        // alert("Winner")
-
-        //(guess === ['N', 'E', 'R', 'D'] &&
-        //guess < 6)
-        //alert("Winner!")

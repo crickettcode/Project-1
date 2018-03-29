@@ -1,0 +1,8 @@
+var step = 0;
+
+step < 5
+
+var word = ['d','o','g', 'g', 'i', 'e']
+var arryLength = word.length 
+
+for count=0; count < arryLength i++
