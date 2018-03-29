@@ -4,7 +4,7 @@ Hangman - First project of WDI-15. Interactive game.
 
 ![hangman!!!!](https://ruwix.com/pics/memes/hangman-meme.jpg)
 
-##Hangman Game
+## Hangman Game
 
 The game that I chose for my first project is *Hangman*. I wanted my game to be simple, clean, and to function correctly. I feel that I was able to accomplish these objectives. 
 The game begins with the user viewing the game board, a box containing the letters of the alphabet and an empty box that reads "Lost", as well as an area with eleven blank spaces. 
