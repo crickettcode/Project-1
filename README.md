@@ -23,7 +23,9 @@ In order to begin the game, the user selects a letter from the alphabet box by c
 * I would like an actual hangman to be displayed in the second version
 * I would also like to use an array of words in the next draft that is writtten in dynamic code
 
+## Favorite Obstacle
 
+My favorite obstacle was probably the one that happened on the last day before my project was due. I had to re-write the code that I had previously used to display the letters in the array of the secret word. I had to scratch my for-loop and instead use the "hide/show" method with CSS and jQuery. I liked how Jackson broke down the if/else statement that was also used to solve the "problem" of displaying the secret word. I was proud of myself for sticking with the logic until I was able to arrive at a solution. It led to a better understanding of my code. 
 
 
  ### These are the links, libraries, and frameworks that I used 
@@ -36,7 +38,7 @@ In order to begin the game, the user selects a letter from the alphabet box by c
 
 ##  Technologies
 
-* HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, FLEXBOX
+* HTML, CSS, JAVASCRIPT, JQUERY, BOOTSTRAP, FLEXBOX, GITHUB
 
 ## Links 
 
