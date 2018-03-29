@@ -21,16 +21,25 @@ In order to begin the game, the user selects a letter from the alphabet box by c
 
 * I would like the progress bar to work in version two 
 * I would like an actual hangman to be displayed in the second version
-* I would also like to use an array of words in the next draft that uses dynamic code
+* I would also like to use an array of words in the next draft that is writtten in dynamic code
 
 
 ### links
 
- These are the links that I used 
+ These are the links, libraries, and frameworks that I used 
 
-* ### https://bootswatch.com/sketchy/ -- this was the specific CSS that I used 
+* ## https://bootswatch.com/sketchy/ -- this was the specific CSS that I used 
 
-* ### https://trello.com/b/afQR3YdR/project-1-hangman -- this is how I organized my user story
+* ## https://trello.com/b/afQR3YdR/project-1-hangman -- this is how I organized my user story
+
+* ## WDI-14
+
+* ## Jackson, Daniel ( instructors) Sanjay, William ( after hours tutoring ) 
+
+* ## classmates of WDI-15
+
+
+
 
 
 
